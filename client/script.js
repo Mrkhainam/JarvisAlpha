@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
 
 
 
- const response = await fetch('https://jarvis-ai.onrender.com/', {
+ const response = await fetch('https://jarvisalpha.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
